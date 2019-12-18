@@ -1,0 +1,12 @@
+doctype  
+html  
+	head  
+		title  Pug template use include css and header 
+		style
+			include css/main.css
+	body  
+		include includes/header.pug
+		div(class='fulldiv')
+			p(class='headingtext') Welcome To Pug Home page
+		div(class='maintextdiv')
+			p(class='maintextdivtext') Click on family name and get detail about that person
